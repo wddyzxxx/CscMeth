@@ -1,7 +1,7 @@
 <a name="DUDaV"></a>
 # CscMeth - Guided Analysing Tutorial
 <a name="WHhGS"></a>
-#### Compiled: Arpil 10, 2023 			By Yuan Zhen
+#### Compiled: Arpil 11, 2023 			By Yuan Zhen
 <a name="dHhke"></a>
 # Prepare ALLC files for analysis
 In this tutorial, we will walk through the analysis of methylation data from two different cells - a normal cell and a colorectal cancer cell. <br />Specifically, we will be using the files `CRC04_NC_302.sort.rmdup.bam` and `CRC04_PT1_589.sort.rmdup.bam`. These files will be transformed into ALLC format, which is a tab-separated format consisting of seven columns that store various types of information related to DNA methylation:
