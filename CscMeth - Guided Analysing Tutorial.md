@@ -228,4 +228,4 @@ cscmeth tanghulu --allc_path ../../allcools/0.plot/ \
 cscmeth minihg --allc_path ../../allcools/0.plot/ \
 --range chr6:566781-570000\
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/32598292/1681200267531-d3f7eb83-bcd8-4440-9e9e-64d21eb6eb1e.png#averageHue=%23fafafa&clientId=u4ba62734-d942-4&from=paste&id=uc9fe9644&name=image.png&originHeight=1080&originWidth=527&originalType=binary&ratio=1&rotation=0&showTitle=false&size=70315&status=done&style=none&taskId=u77841434-97d7-457f-af2c-b1c7e7a76a2&title=)<br />And 
+![image.png](https://cdn.nlark.com/yuque/0/2023/png/32598292/1681200267531-d3f7eb83-bcd8-4440-9e9e-64d21eb6eb1e.png#averageHue=%23fafafa&clientId=u4ba62734-d942-4&from=paste&id=uc9fe9644&name=image.png&originHeight=1080&originWidth=527&originalType=binary&ratio=1&rotation=0&showTitle=false&size=70315&status=done&style=none&taskId=u77841434-97d7-457f-af2c-b1c7e7a76a2&title=)<br />
