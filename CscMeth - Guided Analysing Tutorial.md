@@ -1,7 +1,7 @@
 <a name="DUDaV"></a>
 # CscMeth - Guided Analysing Tutorial
 <a name="WHhGS"></a>
-#### Compiled: Arpil 11, 2023 			By Yuan Zhen
+#### Compiled: Arpil 10, 2023 			By Yuan Zhen
 <a name="dHhke"></a>
 # Prepare ALLC files for analysis
 In this tutorial, we will walk through the analysis of methylation data from two different cells - a normal cell and a colorectal cancer cell. <br />Specifically, we will be using the files `CRC04_NC_302.sort.rmdup.bam` and `CRC04_PT1_589.sort.rmdup.bam`. These files will be transformed into ALLC format, which is a tab-separated format consisting of seven columns that store various types of information related to DNA methylation:
@@ -220,7 +220,7 @@ There are currently six plots in CscMeth, with 3 incorporated in fucntions and t
 cscmeth tanghulu --allc_path ../../allcools/0.plot/ \
 --range chr6:566781-570000\
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/32598292/1681200229379-1531c516-7833-4704-9477-793ad8dcbed0.png#averageHue=%23ededed&clientId=u4ba62734-d942-4&from=paste&height=455&id=u1c63508a&name=image.png&originHeight=910&originWidth=1316&originalType=binary&ratio=1&rotation=0&showTitle=false&size=101108&status=done&style=none&taskId=u226cfa4f-0a19-404a-b745-104cabae874&title=&width=658)
+![image.png](https://cdn.nlark.com/yuque/0/2023/png/32598292/1681349434941-f49e9797-1621-4c3e-b5ae-41cdb3a02bb5.png#averageHue=%23e1e1e1&clientId=u4ba62734-d942-4&from=paste&height=1075&id=uf27fc066&name=image.png&originHeight=1075&originWidth=1551&originalType=binary&ratio=1&rotation=0&showTitle=false&size=234683&status=done&style=none&taskId=u742cd7ea-fc87-4dc3-bd39-e014bf6d913&title=&width=1551)
 ```
 ### Please note here what follows --allc_path is a directory where ALLC files to be ploted
 ### are. And This step may take a while if there are many ALLC files.
@@ -228,4 +228,4 @@ cscmeth tanghulu --allc_path ../../allcools/0.plot/ \
 cscmeth minihg --allc_path ../../allcools/0.plot/ \
 --range chr6:566781-570000\
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/32598292/1681200267531-d3f7eb83-bcd8-4440-9e9e-64d21eb6eb1e.png#averageHue=%23fafafa&clientId=u4ba62734-d942-4&from=paste&id=uc9fe9644&name=image.png&originHeight=1080&originWidth=527&originalType=binary&ratio=1&rotation=0&showTitle=false&size=70315&status=done&style=none&taskId=u77841434-97d7-457f-af2c-b1c7e7a76a2&title=)<br />
+![image.png](https://cdn.nlark.com/yuque/0/2023/png/32598292/1681200267531-d3f7eb83-bcd8-4440-9e9e-64d21eb6eb1e.png#averageHue=%23fafafa&clientId=u4ba62734-d942-4&from=paste&id=uc9fe9644&name=image.png&originHeight=1080&originWidth=527&originalType=binary&ratio=1&rotation=0&showTitle=false&size=70315&status=done&style=none&taskId=u77841434-97d7-457f-af2c-b1c7e7a76a2&title=)<br />And 
