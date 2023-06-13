@@ -165,26 +165,26 @@ This will generate three new files:
 * a plot
 
 However, since we are only using two cells as input, the results may not be significant. Therefore for the purpose of illustration, the following image shows an example of the enrichment results:
-![X43WKIIM@22FYAK{G_LYBU3.png](https://cdn.nlark.com/yuque/0/2023/png/32598292/1681198619279-fc80232a-3f08-4cea-99dc-05312a3187ce.png#averageHue=%23f9f9f9&clientId=u4ba62734-d942-4&from=paste&height=253&id=u64146956&name=X43WKIIM%4022FYAK%7BG_LYBU3.png&originHeight=833&originWidth=1794&originalType=binary&ratio=1&rotation=0&showTitle=false&size=22822&status=done&style=none&taskId=u28c59439-9235-4b69-8296-a5e71614ce6&title=&width=545)
+![image info](./pictures/dmr-elements.png)
 # tanghulu
 Please note here what follows --allc_path is **a directory where ALLC files to be ploted are**. And This step may take a while if there are many ALLC files.
 ```
 cscmeth tanghulu --allc_path ../../allcools/0.plot/ \
 --range chr6:566781-570000\
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/32598292/1681349434941-f49e9797-1621-4c3e-b5ae-41cdb3a02bb5.png#averageHue=%23e1e1e1&clientId=u4ba62734-d942-4&from=paste&height=1075&id=uf27fc066&name=image.png&originHeight=1075&originWidth=1551&originalType=binary&ratio=1&rotation=0&showTitle=false&size=234683&status=done&style=none&taskId=u742cd7ea-fc87-4dc3-bd39-e014bf6d913&title=&width=1551)
+![image info](./pictures/tanghulu.png)
 # minihg
 `minihg` is similar to `tanghulu` function, but the main difference is that the former one is more suitable for a short range while the latter one can handle a wide range.
 ```commandline
 cscmeth minihg --allc_path ../../allcools/0.plot/ \ 
 --range chr6:566781-570000
 ```
-![img.png](img.png)
+![image info](./pictures/Minihg.chr6_566781_570000.2023-04-10.png)
 # heatmap
 `heatmap` is to demonstrate DMRs of single cell ALLC files, and it requires at least three arguments:
 * a table file(metadata), such as a `.csv`or`.txt` file with rownames being keywords for matching ALLC files or exactly ALLC file names and one column called `annotation` providing group information.
 <br />For example:
-<br />![img_1.png](img_1.png)![img_4.png](img_4.png)
+<br />![image info](./pictures/heatmap_metadata.png)![image info](./pictures/window_files_of_single_cells.png)
 <br />So for each rowname in the metadata, it looks for the only matching one in the directory specified in the next argument.
 * a directory containing windowing results of **single cells**. To generate corresponding files, just use `window` function and remember to change the `mode` parameter to "single" 
 * bed file(s separated by space) generated in the [test] step
@@ -194,6 +194,6 @@ cscmeth heatmap --metadata ../2023-04-27_MetaData.csv \
 --bed DMR-L2P_DMRs-Input.bed DMR-P2D_DMRs-Input.bed DMR-D2MI_DMRs-Input.bed
 ```
 In the picture below, row annotation refers to the first input dmr, each row being a dmr region, and column annotation means group information, i.e., the annotation column in the metadata.
-<br />![img_5.png](img_5.png)
+<br />![image info](./pictures/heatmap.png)
 # global-elements
 To be continued...
