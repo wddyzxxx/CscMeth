@@ -179,12 +179,12 @@ cscmeth tanghulu --allc_path ../../allcools/0.plot/ \
 cscmeth minihg --allc_path ../../allcools/0.plot/ \ 
 --range chr6:566781-570000
 ```
-![image info](./pictures/Minihg.chr6_566781_570000.2023-04-10.png)
+![image info](./pictures/minihg.png)
 # heatmap
 `heatmap` is to demonstrate DMRs of single cell ALLC files, and it requires at least three arguments:
 * a table file(metadata), such as a `.csv`or`.txt` file with rownames being keywords for matching ALLC files or exactly ALLC file names and one column called `annotation` providing group information.
 <br />For example:
-<br />![image info](./pictures/heatmap_metadata.png)![image info](./pictures/window_files_of_single_cells.png)
+<br />![image info](./pictures/heatmap_metadata.png)  ![image info](./pictures/window_files_of_single_cells.png)
 <br />So for each rowname in the metadata, it looks for the only matching one in the directory specified in the next argument.
 * a directory containing windowing results of **single cells**. To generate corresponding files, just use `window` function and remember to change the `mode` parameter to "single" 
 * bed file(s separated by space) generated in the [test] step
